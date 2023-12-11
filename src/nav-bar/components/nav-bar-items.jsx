@@ -6,7 +6,7 @@ export const NavBarItem = (props) => {
     <li>
       <div
         onClick={props.onClick}
-        className="font-satoshi text-base font-medium leading-7 tracking-normal text-left text-white mx-8"
+        className="font-satoshi text-base font-medium leading-7 tracking-normal text-left text-white mx-5"
         aria-current="page"
       >
         {props.text}

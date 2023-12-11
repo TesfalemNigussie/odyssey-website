@@ -3,7 +3,7 @@ import React from "react";
 export const FAQ = (props) => {
   return (
     <>
-      <div ref={props.ref} className="relative flex flex-col ">
+      <div ref={props.ref} className="relative flex flex-col mt-32 ">
         <img
           className="absolute right-32 object-cover top-32 h-5/6"
           src="/assets/image_2.svg"
@@ -32,7 +32,7 @@ export const FAQ = (props) => {
                       fill="white"
                     />
                   </svg>
-                  <div className="font-satoshi text-lg font-bold leading-40 text-left text-white">
+                  <div className="font-satoshi text-3xl  font-bold leading-40 text-left text-white">
                     Secure Transactions
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export const FAQ = (props) => {
                     </defs>
                   </svg>
 
-                  <div className="font-satoshi text-lg font-bold leading-40 text-left text-white">
+                  <div className="font-satoshi text-3xl font-bold leading-40 text-left text-white">
                     User Verification
                   </div>
                 </div>
@@ -114,7 +114,7 @@ export const FAQ = (props) => {
                     />
                   </svg>
 
-                  <div className="font-satoshi text-lg font-bold leading-40 text-left text-white">
+                  <div className="font-satoshi text-3xl  font-bold leading-40 text-left text-white">
                     Data Protection Measures
                   </div>
                 </div>
@@ -134,7 +134,7 @@ export const FAQ = (props) => {
                     />
                   </svg>
 
-                  <div className="font-satoshi text-lg font-bold leading-40 text-left text-white">
+                  <div className="font-satoshi text-3xl  font-bold leading-40 text-left text-white">
                     Regular Security Audits
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export const FAQ = (props) => {
                     />
                   </svg>
 
-                  <div className="font-satoshi text-lg font-bold leading-40 text-left text-white">
+                  <div className="font-satoshi text-3xl  font-bold leading-40 text-left text-white">
                     Customer Support
                   </div>
                 </div>
